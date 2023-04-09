@@ -1,0 +1,8 @@
+{
+    "openai_api_key": "You openai api key",
+    "language_model": "text-davinci-003",
+    "personality": "(Acts like a tsundere girl):",
+    "max_tokens": 300,
+    "temperature": 1,
+    "language": 1
+}
