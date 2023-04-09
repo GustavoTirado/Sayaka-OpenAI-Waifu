@@ -20,20 +20,22 @@ Installation
 Install Python on your computer if you haven't already. You can download it from the official website: https://www.python.org/downloads/
 
 Open the command line on your operating system (cmd on Windows, Terminal on macOS) and make sure you have pip, the Python package manager, installed. To check if you have pip installed, type the following command and press Enter:
-
-css
-Copy code
+```
 pip --version
+
+```
 If pip is already installed, it will show the current version. If not, you'll need to install it. Follow the instructions on this website to do so: 
 
 https://pip.pypa.io/en/stable/installing/
 
 Install the required packages. To do this, type the following commands one by one and press Enter after each one:
 
+```
 pip install openai
 pip install speechrecognition
 pip install pyttsx3
 
+```
 Download the config.json file and save it in the same folder as the Python file you provided. This file contains the necessary configuration information for the code.
 
 Open the Python file in your favorite code editor (such as Visual Studio Code, PyCharm, etc.) and run it. To do this, you can click the "Run" button or press the F5 key.
@@ -45,3 +47,17 @@ If you have selected the text mode, simply type your questions and wait for Saya
 To switch back to text or voice mode, simply say or type "switch to text mode" or "switch to voice mode", respectively.
 
 That's it! With these steps you should be able to install and run the code without any problems.
+
+Get OpenAi api key
+---------------------
+how to obtain an API key for OpenAI:
+
+Go to the OpenAI website (https://openai.com/) and create an account if you don't already have one.
+
+Once you're logged in, go to the API page (https://beta.openai.com/docs/api-reference/introduction) and click on the "Get API Key" button.
+
+Follow the instructions on the page to request access to the API. You will need to provide some information about yourself and explain how you plan to use the API.
+
+Once your request has been approved, you will receive an email with instructions on how to create an API key. Follow the instructions carefully to generate your key.
+
+Save your API key in a secure location, as you will need it to access the OpenAI API from your code.
